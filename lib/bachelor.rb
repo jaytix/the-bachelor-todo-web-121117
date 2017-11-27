@@ -10,6 +10,7 @@ def get_first_name_of_season_winner(data, season)
               if findName == "name"
                 name.values
               binding.pry
+              end
             end
           end
         end
