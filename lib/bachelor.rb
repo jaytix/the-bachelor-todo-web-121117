@@ -6,6 +6,8 @@ def get_first_name_of_season_winner(data, season)
       data.[seasons].each do |contestant|
         contestant.keys.each do |stats|
           binding.pry
+        end
+      end
     end
   end
 end
