@@ -29,7 +29,7 @@ def get_contestant_name(data, occupation)
                 binding.pry
                 winner = contestant.values[i].split(" ")
                 return winner[0]
-              end
+              
             end
           end
         end
