@@ -32,9 +32,14 @@ def get_contestant_name(data, occupation)
 end
 
 
- def count_contestants_by_hometown(data, hometown)
-   counter = 0
- end
+def count_contestants_by_hometown(data, hometown)
+  counter = 0
+  data.keys.each do |seasons|
+    data[seasons].each do |contestant|
+      binding.pry
+    end
+  end     
+end
 
 # def get_occupation(data, hometown)
 #   # code here
