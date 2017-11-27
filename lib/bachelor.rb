@@ -23,7 +23,7 @@ def get_contestant_name(data, occupation)
   data.keys.each do |seasons|
       data[seasons].each do |contestant|
         contestant.values.each do |stats|
-          if stats == "Winner"
+          if stats == occupation
             contestant.keys.each_with_index do |findName, i|
               if findName == "name"
                 binding.pry
