@@ -24,14 +24,7 @@ def get_contestant_name(data, occupation)
       data[seasons].each do |contestant|
         contestant.values.each do |stats|
           if stats == occupation
-            contestant.keys.each_with_index do |findName, i|
-              if findName == "name"
-                binding.pry
-                winner = contestant.values[i].split(" ")
-                return winner[0]
-
-            end
-          end
+            return contestant.values[0]
         end
       end
     end
