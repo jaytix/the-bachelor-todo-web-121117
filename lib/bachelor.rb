@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
         contestant.values.each do |stats|
           if stats == "Winner"
             contestant.keys.each_with_index do |findName, i|
-              if findName == :name
+              if findName == "name"
                 binding.pry
                 name.values
               end
