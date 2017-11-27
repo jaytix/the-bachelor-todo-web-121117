@@ -21,7 +21,6 @@ end
 
 def get_contestant_name(data, occupation)
   data.keys.each do |seasons|
-    if seasons == season
       data[seasons].each do |contestant|
         contestant.values.each do |stats|
           if stats == "Winner"
