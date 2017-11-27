@@ -8,6 +8,7 @@ def get_first_name_of_season_winner(data, season)
           if stats == "Winner"
             contestant.keys.each_with_index do |findName, i|
               binding.pry
+            end  
           end
         end
       end
