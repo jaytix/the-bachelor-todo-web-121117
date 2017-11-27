@@ -9,6 +9,7 @@ def get_first_name_of_season_winner(data, season)
             stats.keys == "Winner"
           binding.pry
         end
+        end
       end
     end
   end
