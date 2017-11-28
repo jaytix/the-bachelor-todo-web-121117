@@ -51,6 +51,7 @@ def get_occupation(data, hometown)
   data.keys.each do |seasons|
     data[seasons].each do |contestant|
       contestant.values.each do |stats|
+        binding.pry
         if stats == hometown
           counter += 1
         end
