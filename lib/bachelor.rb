@@ -63,6 +63,7 @@ def get_average_age_for_season(data, season)
     data[seasons].each do |contestant|
       contestant.values.each do |stats|
         if stats == hometown
+          binding.pry
           return contestant.values[3]
         end
       end
