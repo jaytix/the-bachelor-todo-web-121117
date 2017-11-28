@@ -64,7 +64,7 @@ def get_average_age_for_season(data, season)
   data.keys.each do |seasons|
     if seasons == season
       data[seasons].each do |contestant|
-        counter += contestant.values[1].to_i
+        counter += contestant.values[1].to_f
         numOfContestants += 1
       end
     end
